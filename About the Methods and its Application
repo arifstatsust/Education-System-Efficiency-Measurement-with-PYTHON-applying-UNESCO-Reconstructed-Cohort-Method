@@ -1,0 +1,12 @@
+### What it is? 
+
+A Python implementation of the UNESCO Reconstructed Cohort Method, a standard technique in education monitoring for measuring internal system efficiency. Given two consecutive years of grade-wise enrollment, repeater counts, and the number of students who passed the final grade, it derives promotion, repetition, and dropout rates per grade, then simulates a hypothetical cohort moving through the education cycle to calculate indicators such as survival rate by grade, total output (graduates), student-years used, years input per graduate, and coefficient of efficiency.
+
+### How I used it? 
+
+I built this to replicate and automate a Reconstructed Cohort Method analysis I originally ran in Excel for Bangladesh's primary education system (Grades I–V), using APSS/ASPR enrollment and repeater data. The Python version reproduces the spreadsheet's results to within 0.01% while making the calculation reusable, auditable, and easy to re-run on new years or subsets of data (e.g. by gender, district, division, or school type) without rebuilding formulas by hand.
+
+### How others can apply it
+
+Anyone working with grade-wise enrollment and repeater data- any Education system in the world, ministries of education, NGOs, researchers, or M&E teams - can plug their own numbers into the function to get instant efficiency indicators for any education cycle (primary, secondary, or otherwise), in any country or context. It's lightweight (pure Python, no heavy dependencies), works as an importable module or an interactive CLI tool, and is straightforward to extend for subgroup analysis or integration into a larger MEL/reporting pipeline.
+
