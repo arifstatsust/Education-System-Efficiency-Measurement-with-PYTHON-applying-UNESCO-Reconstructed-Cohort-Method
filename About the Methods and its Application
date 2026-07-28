@@ -1,4 +1,4 @@
-### What it is? 
+### What is it? 
 
 A Python implementation of the UNESCO Reconstructed Cohort Method, a standard technique in education monitoring for measuring internal system efficiency. Given two consecutive years of grade-wise enrollment, repeater counts, and the number of students who passed the final grade, it derives promotion, repetition, and dropout rates per grade, then simulates a hypothetical cohort moving through the education cycle to calculate indicators such as survival rate by grade, total output (graduates), student-years used, years input per graduate, and coefficient of efficiency.
 
