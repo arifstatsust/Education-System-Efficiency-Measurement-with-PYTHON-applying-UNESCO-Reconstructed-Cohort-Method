@@ -4,7 +4,7 @@ A Python implementation of the UNESCO Reconstructed Cohort Method, a standard te
 
 ### How I used it? 
 
-I built this to replicate and automate a Reconstructed Cohort Method analysis I originally ran in Excel for Bangladesh's primary education system (Grades I–V), using APSS/ASPR enrollment and repeater data. The Python version reproduces the spreadsheet's results to within 0.01% while making the calculation reusable, auditable, and easy to re-run on new years or subsets of data (e.g. by gender, district, division, or school type) without rebuilding formulas by hand.
+I built this to replicate and automate a Reconstructed Cohort Method analysis I originally ran in Excel for Bangladesh's primary education system (Grades I–V), using APSS/ASPR enrollment and repeater data. The Python version reproduces the spreadsheet's results to within 0.01% while making the calculation reusable, auditable, and easy to re-run on new years or subsets of data (e.g., by gender, district, division, or school type) without rebuilding formulas by hand.
 
 ### How others can apply it
 
